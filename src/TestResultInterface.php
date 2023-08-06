@@ -13,6 +13,13 @@ interface TestResultInterface
 
 
     /**
+     * Get a message for the result. E.g. "Test successful!", or "Unexpected item in bagging area."
+     * @return string
+     */
+    public function getMessage() : string;
+
+
+    /**
      * Retrieve the test (or a copy of the test), that is responsible for this result.
      * @return TestInterface
      */
