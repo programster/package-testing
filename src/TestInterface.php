@@ -24,8 +24,8 @@ interface TestInterface
 
     /**
      * Run the test.
-     * @return TestResult - the result of the test. This is what is used to determine if the test failed or not.
+     * @return TestResultInterface - the result of the test. This is what is used to determine if the test failed or not.
      */
-    public function run() : TestResult;
+    public function run() : TestResultInterface;
 }
 

@@ -3,7 +3,7 @@
 namespace Programster\Testing;
 
 
-interface TestResult
+interface TestResultInterface
 {
     /**
      * Retrieves whether the test passed or not. True for passed, false for a failure.
