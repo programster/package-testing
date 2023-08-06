@@ -10,7 +10,7 @@ interface TestInterface
 {
     /**
      * Get the name for this test. This should preferably be unique. E.g. "TestGetUsers".
-     * @return string
+     * @return string - the name of the test.
      */
     public function getName() : string;
 
