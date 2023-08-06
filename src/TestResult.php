@@ -7,7 +7,7 @@ interface TestResult
 {
     /**
      * Retrieves whether the test passed or not. True for passed, false for a failure.
-     * @return boolean
+     * @return boolean - Whether the test passed or not. True for passed, false for a failure.
      */
     public function getPassed() : bool;
 

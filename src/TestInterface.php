@@ -14,6 +14,7 @@ interface TestInterface
      */
     public function getName() : string;
 
+
     /**
      * Get a description for this test. E.g. "Testing that as an admin, I can create a new user."
      * @return string - the description of the test.
